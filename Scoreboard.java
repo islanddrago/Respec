@@ -18,12 +18,12 @@ public class Scoreboard {
         return rwinners;
     }
 
-    public int[] getWinnersScores() {
+    public int getAvgScore() {
         mathMethod mMethod = new mathMethod();
         int[] mwinners = mMethod.mathMan(this.officeAvgScore);
         return mwinners;
     }
-    
+
 }
 
 

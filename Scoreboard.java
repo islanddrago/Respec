@@ -3,8 +3,7 @@ Execpt only int of avg and string of office name as input.
 Make Scoreboard system to find the higest of the all ints and diplay the int value and string
 */
 
-import java.util.Random; // rand gen whitch office wins each time ..   
-
+import java.util.Random;
 
 public class Scoreboard {
     int officeAvgScore;
@@ -21,18 +20,18 @@ public class Scoreboard {
     }
 
     public String[] getWinnersNames() {
-        // System.out.println("Hello Names");
+        System.out.println("Hello Names");
         return officeWinnersNames;
     }
 
     public int getWinnersScores() {
-        // System.out.println("Hello Scores");
+        System.out.println("Hello Scores");
         return WinnersScores;
     }
 
-    public void main(final String[] args) {
-    getWinnersNames();
-    getWinnersScores();
+    public static void main(final String[] args) {
+    //getWinnersNames();
+    //getWinnersScores();
   }
 }
 

@@ -6,12 +6,9 @@ Make Scoreboard system to find the higest of the all ints and diplay the int val
 import java.util.Random;
 
 public class Scoreboard {
-    int officeAvgScore;
-    
-    private
-    int[] WinnersScores;
+    int[] officeAvgScore;
 
-    public Scoreboard(int Score) {
+    public Scoreboard(int[] Score) {
         this.officeAvgScore = Score;
     }
 
@@ -22,11 +19,11 @@ public class Scoreboard {
     }
 
     public int[] getWinnersScores() {
-        System.out.println("Hello Scores");
-        return WinnersScores;
+        mathMethod mMethod = new mathMethod();
+        int[] mwinners = mMethod.mathMan(this.officeAvgScore);
+        return mwinners;
     }
-
-
+    
 }
 
 

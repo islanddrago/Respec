@@ -1,15 +1,14 @@
-/* Mathmatical.java
+/* mathMethod.java
  */
 
-/* Mathmatical accepts two arguements: int Score and String officeName
- * Score corresponds to the current total number of steps associated with officeName
- * Do we make a new function to average? Automatically Average? How do we know number of employees per office?
- * Maybe office class that holds current step total and average?
+/* mathMan accepts an integer array as an arguement
+ * mathMan determines the # of elements in array (# of employees)
+ * and calculates and returns the average steps per employee.
  * */
-    package foo;
     public class mathMethod
     {
-	public static void mathMan(int empStep[], int employeeCount){
+	public static int mathMan(int empStep[]){
+	    int employeeCount = empStep.length;
             int total = 0;
 	    int i = 0;
 	    while(i<employeeCount)
@@ -18,6 +17,7 @@
 	        i++;
 	    }
 	    int average = total/employeeCount;
-            System.out.println("Average = " + average);	
+            //System.out.println("Average = " + average);	
+	    return average;
 	}
     }

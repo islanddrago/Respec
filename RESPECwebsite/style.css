@@ -12,6 +12,13 @@ p {
     font-size: 24pt;
 }
 
+h2 {
+  margin-top: 10px ;
+  color: white;
+  font-size: 30pt;
+  text-align: center;
+}
+
 .wrapper{
   margin: 0 auto;
   width: 1000px
@@ -51,7 +58,7 @@ p {
 
 
 #table1 {
-    margin-top: -1000px;
+    margin-top: -800px;
     margin-left: 15%;
     text-align: left;
 }

@@ -36,7 +36,7 @@ function print_scoreboards() {
     }
     document.write('</div >');
 
-
+      /*
     window.addEventListener('load', function () {
             let index = 0;
             
@@ -51,9 +51,6 @@ function print_scoreboards() {
             
         }, 1000);
     }, false);
+
+    */
 }
-
-
-
-
-

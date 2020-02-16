@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 1000px
+}
+
+.respec-logo{
+  width: 100px
+
+}
+.text{
+  color: red;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid div:nth-child(even){
+  color: white;
+  background-color: red;
+}
+.grid div:nth-child(odd){
+  color: red;
+  background-color: white;
+}

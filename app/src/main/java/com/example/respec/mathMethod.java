@@ -5,7 +5,9 @@
  * mathMan determines the # of elements in array (# of employees)
  * and calculates and returns the average steps per employee.
  * */
-/*
+package com.example.respec;
+
+
     public class mathMethod
     {
 	public static int mathMan(int empStep[]){
@@ -22,4 +24,3 @@
 	    return average;
 	}
     }
-*/

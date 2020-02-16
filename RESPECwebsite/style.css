@@ -7,6 +7,11 @@ body {
   background-color: #000000;
 }
 
+p {
+    color: white;
+    font-size: 24pt;
+}
+
 .wrapper{
   margin: 0 auto;
   width: 1000px
@@ -41,5 +46,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  height: 50%;
+  height: 5%;
+}
+
+
+#table1 {
+    margin-top: -1000px;
+    margin-left: 15%;
+    text-align: left;
+}
+
+#table2 {
+    margin-top: -670px;
+    margin-right: 40%;
+    text-align: right;
 }
